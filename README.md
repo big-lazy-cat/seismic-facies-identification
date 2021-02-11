@@ -5,6 +5,8 @@
 [Annoncement of the winners](https://discourse.aicrowd.com/t/announcing-the-winners/4442)  
 This 3rd place solution uses **image segmentation**, **Pytorch**, **DeepLabV3+**, **efficientnet-b3** to solve the challenge.
 
+-----------------
+
 There are 4 scripts: "train_inference_class0123.ipynb", "train_inference_class4.ipynb", "train_inference_class5.ipynb" and "binary_ensemble.ipynb".
 
 I used Google Colab to run the scripts (with GPU option enabled). The training data was put in the directory "data". 
