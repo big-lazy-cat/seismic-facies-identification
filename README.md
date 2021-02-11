@@ -1,4 +1,9 @@
-# Seismic Facies Identification Challenge - Mengdi
+# Seismic Facies Identification Challenge - 3rd place solution
+
+**Seismic Facies Identification challenge:** https://www.aicrowd.com/challenges/seismic-facies-identification-challenge  
+*The goal of the challenge is to create a machine-learning algorithm which, working from the raw 3D image, can reproduce an expert pixel-by-pixel facies identification.*  
+[Annoncement of the winners](https://discourse.aicrowd.com/t/announcing-the-winners/4442)  
+This 3rd place solution uses **image segmentation**, **Pytorch**, **DeepLabV3+**, **efficientnet-b3** to solve the challenge.
 
 There are 4 scripts: "train_inference_class0123.ipynb", "train_inference_class4.ipynb", "train_inference_class5.ipynb" and "binary_ensemble.ipynb".
 
